@@ -1,29 +1,30 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
-header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+title: 先用着这个标题                        #你博客的标题
+SEOTitle: xieincz的博客 | 先用着这个标题     #显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-fish.jpg             #显示在首页的背景图片
+email: xieincz@gmail.com
+description: "暂时没想到介绍怎么写."   #网站介绍
+keyword: " xieincz Blog, xieincz的博客, xieincz, :), Microsoft, Windows, Google, Android"
+url: "https://xieincz.github.io"          # your host, for absolute URL # 这个就是填写你的博客地址
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'  # 这个我们不用填写
+
+github_repo: "https://github.com/xieincz/xieincz.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "说点什么好呢?"
+sidebar-avatar: /img/about-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`   # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+# weibo_username:     null
+#zhihu_username:     null
+#github_username:    null
+#facebook_username:  null
+#jianshu_username:   jianshu_id
+#twitter_username:   null
 
 
 
@@ -62,11 +63,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 33031c7fcdd83693bbc1                            #生成的clientID
+  clientSecret: a99052ca067813e86f7fec99a8daad2554cb1dc3    #生成的clientSecret
+  repo: xieincz.github.io    #仓库名称
+  owner: xieincz    #github用户名
+  admin: xieincz
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +75,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: 4c8f171838d14cdfd132d95c1b743a72
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-123877368-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -103,12 +104,12 @@ friends: [
         href: "http://zhengwuyang.com"
     },{
         title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        href: "http://www.jianshu.com"
     },{
         title: "Apple",
         href: "https://apple.com"
     },{
         title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        href: "https://developer.apple.com"
     }
 ]
