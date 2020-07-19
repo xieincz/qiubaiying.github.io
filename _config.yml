@@ -1,6 +1,6 @@
 # Site settings
-title: 没有未来的未来不是我喜欢的未来                        #你博客的标题
-SEOTitle: 没有未来的未来不是我喜欢的未来!     #显示在浏览器上搜索的时候显示的标题
+title: 蜥欸车站                        #你博客的标题
+SEOTitle: 蜥欸车站     #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-fish.jpg             #显示在首页的背景图片
 email: xieincz@gmail.com
 description: "暂时没想到介绍怎么写."   #网站介绍
@@ -11,8 +11,8 @@ baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'  # �
 github_repo: "https://github.com/xieincz/xieincz.github.io" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "说点什么好呢?"
+sidebar: false                          # whether or not using Sidebar.
+sidebar-about-description: "没有人会看的吧"
 sidebar-avatar: /img/about-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`   # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
 
 
